@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cl-shop:Boutique En Ligne</title>
+	<!-- Liaison fichier bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+	<!-- Debut menu de navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+	  <div class="container-fluid">
+	    <a class="navbar-brand text-white" href="#">CODINGLIFE</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link  text-white" aria-current="page" href="index.html">ACCEUIL</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link text-white" href="blog.html">BLOG</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	           Boutique
+	          </a>
+	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	            <li><a class="dropdown-item" href="shop.html">PRODUIT</a></li>
+	            <li><a class="dropdown-item" href="electronique.html">ELECTRONIQUE</a></li>
+	            <li><hr class="dropdown-divider"></li>
+	            
+	          </ul>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link text-white" href="register.html">INSCRIPTION</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link text-white " href="login.html">CONNEXION</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link text-white" href="apropos.html">A PROPOS</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- Fin menu de navigation -->
+
+	<!-- Debut caroussel -->
+
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="img/caroussel/1.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="img/caroussel/3.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="img/caroussel/5.jpg" class="d-block w-100" alt="...">
+	    </div>
+	  </div>
+	</div>
+	<!-- Fin caroussel -->
+
+	<!-- Debut section Tityre -->
+	<div class="card mt-4 p-3" style="background-color: #050A30;">
+		<div class="card-body bg-danger w-50 m-auto " style="border-radius: 15px;">
+			<h3 class="card-title text-center text-white text-uppercase fs-3"> Tout a commencé par une idée simple</h3>
+			<p class="card-text text-center text-white ">Créer des produits de qualite et bien conçus que je voulais moi-meme</p>
+		</div>
+	</div>
+	<!-- Fin section Titre -->
+
+	<!-- Debut section Type de Produit -->
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="img/i28.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center text-primary text-uppercase fs-4 fw-bold ">
+	        Collection Pour Enfants</h3>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block btn-outline-danger w-100">EN SAVOIR PLUS</button>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="img/i3.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center text-primary text-uppercase fs-4 fw-bold ">
+	        Collection Pour Femme</h3>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block btn-outline-danger w-100">EN SAVOIR PLUS</button>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="img/i1.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center text-primary text-uppercase fs-4 fw-bold ">
+	        Collection Pour Homme</h3>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block btn-outline-danger w-100">EN SAVOIR PLUS</button>
+	      </div>
+	    </div>
+	  </div>
+	 
+	  
+	</div>
+	<!-- Fin section Type de Produit -->
+
+	<!-- Debut Section contact -->
+	<div class="card mt-4 container-fluid">
+		<div class="row bg-darkblue p-3" style="background-color:darkblue;">
+			<div class="col">
+				<h2 class="text-white text-white fw-bold">Nous Joindre Maintenant</h2>
+			</div>
+			<div class="col  ">
+				<button class="btn  btn-outline-success fw-bold">+224 622 000 000</button>
+			</div>
+		</div>
+	</div>
+	<!-- Fin Section contact -->
+
+	<!-- Debut section des produit pour enfant -->
+	<div class="card container-fluid bg-dark btn-outline-danger p-1 mt-4">
+		<h2 class="text-center text-primary fw-bold">COLLECTIONS POUR ENFANTS</h2>
+	</div>
+
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+	  <div class="col-md-3	">
+	    <div class="card h-100">
+	      <img src="img/d3.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;"> Idia clothes </h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 250 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/d2.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Robe Simple</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 190 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3	">
+	    <div class="card h-100">
+	      <img src="img/im2.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Robe Sahodia</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 250 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/P1.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">veste sahodia</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 300 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  
+	</div>
+	<!-- Fin section des produit pour enfant -->
+
+	<!-- Debut section des produit pour femmes -->
+
+	<div class="card container-fluid bg-dark btn-outline-danger p-1 mt-4">
+		<h2 class="text-center text-primary fw-bold">BOUTIQUE POUR FEMME</h2>
+	</div>
+
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+	  <div class="col-md-3	">
+	    <div class="card h-100">
+	      <img src="imgprojet/f3.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;"> moullante </h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 300 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="imgprojet/f4.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Fadimanba</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 400 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3	">
+	    <div class="card h-100">
+	      <img src="imgprojet/f6.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Diouramuh</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 550 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="imgprojet/f7.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Women Clothes</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 600 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  
+	</div>
+
+	<!-- Fin section des produit pour femmes -->
+
+	<!-- Debut Section newwletter -->
+	<div class="card mt-4 container-fluid">
+		<div class="row bg-darkblue p-3" style="background-color:darkblue;">
+			<div class="col">
+				<h2 class="text-white text-white fw-bold">SOUSCRIRE A NOTRE NEWLETTER</h2>
+			</div>
+			<div class="col  ">
+				<input   class="p-2 w-50" type="text" placeholder="Entrer votre Adress Email" >
+				<button class="btn  btn-outline-success fw-bold">ENVOYER</button>
+			</div>
+		</div>
+	</div>
+	<!-- Fin Section newletter -->
+
+	<!-- Debut section des produit pour Hommes -->
+
+	<div class="card container-fluid bg-dark btn-outline-danger p-1 mt-4">
+		<h2 class="text-center text-primary fw-bold">BOUTIQUE POUR Homme</h2>
+	</div>
+
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+	  <div class="col-md-3	">
+	    <div class="card h-100">
+	      <img src="imgprojet/V2.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;"> Veste turque </h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 890 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="imgprojet/v1.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Veste Italienne</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 1 000 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3	">
+	    <div class="card h-100">
+	      <img src="imgprojet/v3.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">England Pull</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 700 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="imgprojet/v4.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;"> fresh Coat </h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 600 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  
+	</div>
+
+	<!-- Fin section des produit pour Hommes -->
+
+
+	<!-- Debut section des Nouveaux produits  -->
+
+	<div class="card container-fluid bg-dark btn-outline-danger p-1 mt-4">
+		<h2 class="text-center text-primary fw-bold">NOUVEAUX PRODUITS</h2>
+	</div>
+
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+	  <div class="col-md-2	">
+	    <div class="card h-100">
+	      <img src="imgprojet/c2.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">air Vannes </h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 200 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="imgprojet/c1.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Snop</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 220 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-2	">
+	    <div class="card h-100">
+	      <img src="imgprojet/c15.png" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Air Force</h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 250 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="imgprojet/c13.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;">Montante </h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 300 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+
+	   <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="imgprojet/c3.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;"> Air IZI </h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 250 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+
+	   <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="imgprojet/c8.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title text-center fs-3 fw-bold" style="color: darkblue;"> Nike Air </h3>
+	        <p class="card-text text-center fs-4 text-danger">Prix 290 000FG </p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <button class="btn btn$ btn-primary w-100">Acheter Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  
+	</div>
+
+	<!-- Fin section des Nouveaux produits -->
+
+	<!-- Debut Section temoignages Client -->
+	<div class="row container-fluid">
+		<div class="card mt-4 p-1 bg-dark">
+			<h2 class="text-center text-danger fw-bold">TEMOIGNAGES DE NOS CLIENTS</h2>
+		</div>
+	<div class="col-6 mt-4">
+		<div class="card mb-3" style="max-width: 100%;">
+		  <div class="row g-0">
+		    <div class="col-md-4">
+		      <img src="imgprojet/user3.jpg" class="img-fluid rounded-start" alt="...">
+		    </div>
+		    <div class="col-md-8">
+		      <div class="card-body">
+		        <h5 class="card-title text-center fw-bold">BINTA SIDIBE</h5>
+		        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		        quis  </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+		<div class="col-6 mt-4">
+		<div class="card mb-3" style="max-width: 100%;">
+		  <div class="row g-0">
+		    <div class="col-md-4">
+		      <img src="imgprojet/user4.jpg" class="img-fluid rounded-start" alt="...">
+		    </div>
+		    <div class="col-md-8">
+		      <div class="card-body">
+		        <h5 class="card-title text-center fw-bold">GHOST </h5>
+		        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		        quis  </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	
+
+	</div>
+	<!-- Debut Section temoignages Client -->
+	
+	<!-- debut Footers -->
+	<footer class="py-5 " style="background-color: darkblue;">
+	    <div class="row">
+	      <div class="col-2">
+	        <h5 class="text-danger">Reseaux sociaux</h5>
+	        <ul class="nav flex-column " style="text">
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Facebook</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">instagram</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Twitte</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Whatshapp</a></li>
+	  
+	        </ul>
+	      </div>
+
+	      <div class="col-2">
+	        <h5 class="text-danger">Liens</h5>
+	        <ul class="nav flex-column">
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">service</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">A propos</a></li>
+	    
+	        </ul>
+	      </div>
+
+	 
+
+	      <div class="col-4 offset-1">
+	        <form>
+	          <h5 class="text-white">Subscribe to our newsletter</h5>
+	          <p class="text-white">Monthly digest of whats new and exciting from us.</p>
+	          <div class="d-flex w-100 gap-2">
+	            <label for="newsletter1" class="visually-hidden">Email address</label>
+	            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+	            <button class="btn btn-primary" type="button">Subscribe</button>
+	          </div>
+	        </form>
+	      </div>
+	    </div>
+
+	    
+	  </footer>
+	<!-- Fin Footers -->
+
+
+	
+	</div>
+
+
+</body>
+</html>
